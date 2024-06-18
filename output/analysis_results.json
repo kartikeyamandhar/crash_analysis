@@ -1,0 +1,192 @@
+{
+    "Analysis 1 result": 0,
+    "Analysis 2 result": 757,
+    "Analysis 3 result": [
+        {
+            "VEH_MAKE_ID": "CHEVROLET",
+            "count": 17
+        },
+        {
+            "VEH_MAKE_ID": "FORD",
+            "count": 12
+        },
+        {
+            "VEH_MAKE_ID": "DODGE",
+            "count": 7
+        },
+        {
+            "VEH_MAKE_ID": "FREIGHTLINER",
+            "count": 6
+        },
+        {
+            "VEH_MAKE_ID": "NISSAN",
+            "count": 5
+        }
+    ],
+    "Analysis 4 result": 3985,
+    "Analysis 5 result": {
+        "state": "Texas",
+        "count": 83016
+    },
+    "Analysis 6 result": [
+        {
+            "VEH_MAKE_ID": "TOYOTA",
+            "count": 3608
+        },
+        {
+            "VEH_MAKE_ID": "DODGE",
+            "count": 2683
+        },
+        {
+            "VEH_MAKE_ID": "NISSAN",
+            "count": 2632
+        }
+    ],
+    "Analysis 7 result": [
+        {
+            "VEH_BODY_STYL_ID": "AMBULANCE",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 97
+        },
+        {
+            "VEH_BODY_STYL_ID": "BUS",
+            "PRSN_ETHNICITY_ID": "HISPANIC",
+            "count": 391
+        },
+        {
+            "VEH_BODY_STYL_ID": "FARM EQUIPMENT",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 63
+        },
+        {
+            "VEH_BODY_STYL_ID": "FIRE TRUCK",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 112
+        },
+        {
+            "VEH_BODY_STYL_ID": "MOTORCYCLE",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 848
+        },
+        {
+            "VEH_BODY_STYL_ID": "NA",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 5693
+        },
+        {
+            "VEH_BODY_STYL_ID": "NEV-NEIGHBORHOOD ELECTRIC VEHICLE",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 10
+        },
+        {
+            "VEH_BODY_STYL_ID": "NOT REPORTED",
+            "PRSN_ETHNICITY_ID": "HISPANIC",
+            "count": 2
+        },
+        {
+            "VEH_BODY_STYL_ID": "OTHER  (EXPLAIN IN NARRATIVE)",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 459
+        },
+        {
+            "VEH_BODY_STYL_ID": "PASSENGER CAR, 2-DOOR",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 9877
+        },
+        {
+            "VEH_BODY_STYL_ID": "PASSENGER CAR, 4-DOOR",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 58312
+        },
+        {
+            "VEH_BODY_STYL_ID": "PICKUP",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 38609
+        },
+        {
+            "VEH_BODY_STYL_ID": "POLICE CAR/TRUCK",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 366
+        },
+        {
+            "VEH_BODY_STYL_ID": "POLICE MOTORCYCLE",
+            "PRSN_ETHNICITY_ID": "HISPANIC",
+            "count": 3
+        },
+        {
+            "VEH_BODY_STYL_ID": "SPORT UTILITY VEHICLE",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 33902
+        },
+        {
+            "VEH_BODY_STYL_ID": "TRUCK",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 4204
+        },
+        {
+            "VEH_BODY_STYL_ID": "TRUCK TRACTOR",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 5815
+        },
+        {
+            "VEH_BODY_STYL_ID": "UNKNOWN",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 1178
+        },
+        {
+            "VEH_BODY_STYL_ID": "VAN",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 5291
+        },
+        {
+            "VEH_BODY_STYL_ID": "YELLOW SCHOOL BUS",
+            "PRSN_ETHNICITY_ID": "WHITE",
+            "count": 264
+        }
+    ],
+    "Analysis 8 result": [
+        {
+            "DRVR_ZIP": "78521",
+            "count": 115
+        },
+        {
+            "DRVR_ZIP": "76010",
+            "count": 103
+        },
+        {
+            "DRVR_ZIP": "79936",
+            "count": 75
+        },
+        {
+            "DRVR_ZIP": "79938",
+            "count": 72
+        },
+        {
+            "DRVR_ZIP": "78550",
+            "count": 62
+        }
+    ],
+    "Analysis 9 result": 8,
+    "Analysis 10 result": [
+        {
+            "VEH_MAKE_ID": "FORD",
+            "count": 21090
+        },
+        {
+            "VEH_MAKE_ID": "CHEVROLET",
+            "count": 18739
+        },
+        {
+            "VEH_MAKE_ID": "TOYOTA",
+            "count": 12818
+        },
+        {
+            "VEH_MAKE_ID": "DODGE",
+            "count": 8674
+        },
+        {
+            "VEH_MAKE_ID": "NISSAN",
+            "count": 8144
+        }
+    ]
+}
