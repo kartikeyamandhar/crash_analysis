@@ -1,4 +1,3 @@
-
 # Crash Analysis Project
 
 ## Overview
@@ -6,6 +5,7 @@
 This project is designed to perform detailed crash analysis using a PySpark-based application. The analysis covers various aspects of crash data, including the number of crashes with specific conditions, vehicle involvement, driver details, and more. The application reads data from multiple CSV files, performs analyses, and outputs the results in a structured format.
 
 ## Project Structure
+ ```bash
 crash_analysis/
 ├── config/
 │ └── config.yaml
@@ -25,7 +25,7 @@ crash_analysis/
 │ ├── analysis_utils.py
 ├── README.md
 └── requirements.txt
-
+ ```
 
 ## Environment Setup
 
@@ -40,63 +40,47 @@ crash_analysis/
 
 1. Navigate to the project directory and create a virtual environment:
 
+    ```sh
     cd /path/to/your/crash_analysis
     python -m venv venv
-
+    ```
 
 2. Activate the virtual environment:
 
     - **Windows**:
+
+        ```sh
         .\venv\Scripts\activate
+        ```
 
     - **macOS/Linux**:
-        source venv/bin/activate
 
+        ```sh
+        source venv/bin/activate
+        ```
 
 3. Install the required packages:
-    pip install -r requirements.txt
 
+    ```sh
+    pip install -r requirements.txt
+    ```
 
 ### Verifying Installation
 
 Ensure that the packages are correctly installed by listing them:
 
+```sh
 pip list
 
 ### Configuration
 The configuration file config/config.yaml contains paths to input data files and the output directory. The paths can be specified as relative or absolute paths. The application will convert relative paths to absolute paths at runtime.
 
-## Config File Example (config/config.yaml)
-data_paths:
-  charges: '../data/Charges_use.csv'
-  damages: '../data/Damages_use.csv'
-  endorse: '../data/Endorse_use.csv'
-  primary_person: '../data/Primary_Person_use.csv'
-  restrict: '../data/Restrict_use.csv'
-  units: '../data/Units_use.csv'
+Use the following command to run the application:
 
-output_path: '../output'
-
-
-Config File Example (config/config.yaml)
-yaml
-Copy code
-data_paths:
-  charges: '../data/Charges_use.csv'
-  damages: '../data/Damages_use.csv'
-  endorse: '../data/Endorse_use.csv'
-  primary_person: '../data/Primary_Person_use.csv'
-  restrict: '../data/Restrict_use.csv'
-  units: '../data/Units_use.csv'
-
-output_path: '../output'
-
-### Running the Application
 spark-submit src/main.py
 
-## Logging
+Logging
 The application logs its progress and any errors to a log file named logs.log in the output directory. This file includes timestamps and log levels to help with troubleshooting and monitoring.
-
 
 Code Explanation
 main.py
@@ -111,4 +95,3 @@ Utility functions for Spark operations, including getting a Spark session, readi
 analysis_utils.py
 Utility functions to perform all analyses and write the results to the output file.
 
- 
